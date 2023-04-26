@@ -1,4 +1,4 @@
-import { Button, Card, Col, Container, Row } from 'react-bootstrap'
+import { Card, Col, Container, Row } from 'react-bootstrap'
 import github from '../assets/img/github.png'
 export const OtherProyects = () => {
   const projects = [
