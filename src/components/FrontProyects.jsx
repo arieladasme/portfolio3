@@ -66,7 +66,7 @@ export const FrontProyects = () => {
                 {project.description}
               </Card.Text>
               <a href={project.url} target="_blank" rel="noreferrer">
-                <Button variant="primary">Ver en GitHub</Button>
+                <Button variant="primary">Ver app</Button>
               </a>
             </Card.Body>
           </Card>
