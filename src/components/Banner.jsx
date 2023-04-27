@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { Container, Row, Col } from 'react-bootstrap'
+import { Container, Row, Col, Button } from 'react-bootstrap'
 import yo from '../assets/img/yo.png'
 import 'animate.css'
 import TrackVisibility from 'react-on-screen'
@@ -80,6 +80,13 @@ export const Banner = () => {
                     mediante la utilización de KPIs, siempre mejorando mis buenas prácticas,
                     manteniendo un código limpio, escalable y sostenible en el tiempo.
                   </p>
+                  <a
+                    href="https://1drv.ms/b/s!AienY4qm3BJFpwfVP2FPpVM8Gz7s?e=dJdCl3"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <Button variant="danger">Visualizar mi CV</Button>
+                  </a>
                 </div>
               )}
             </TrackVisibility>

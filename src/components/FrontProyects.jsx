@@ -57,7 +57,7 @@ export const FrontProyects = () => {
   return (
     <Row xs={1} md={2} className="g-4">
       {projects.map((project, index) => (
-        <Col>
+        <Col key={index}>
           <Card bg="dark" border="info">
             <Card.Img variant="top" src={project.imgUrl} />
             <Card.Body>
