@@ -28,7 +28,7 @@ export const Projects = () => {
                       id="pills-tab"
                     >
                       <Nav.Item>
-                        <Nav.Link eventKey="first">Frontend con ReactJS</Nav.Link>
+                        <Nav.Link eventKey="first">Frontend</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
                         <Nav.Link eventKey="second">Backend</Nav.Link>
