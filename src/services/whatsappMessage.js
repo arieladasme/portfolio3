@@ -1,5 +1,8 @@
 import axios from 'axios'
 
+console.log('REACT_APP_META_URL', process.env.REACT_APP_META_URL)
+console.log('REACT_APP_META_TOKEN', process.env.REACT_APP_META_TOKEN)
+console.log('REACT_APP_PHONE_NUMBER', process.env.REACT_APP_PHONE_NUMBER)
 export const sendMessage = () => {
   const config = {
     headers: {
