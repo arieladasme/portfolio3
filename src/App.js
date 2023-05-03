@@ -7,7 +7,7 @@ import { sendMessage } from './services'
 
 function App() {
   useEffect(() => {
-    sendMessage()
+    //sendMessage()
   }, [])
 
   return (
